@@ -2,14 +2,23 @@ header {
     height: 4rem;
 }
 
-.searchbar {
+.searchbar-container {
     max-width: 35rem;
+}
+
+.searchbar {
     outline: none;
     border: none;
+}
 
-    background-image: url('/assets/icons/search_blue.svg');
-    background-repeat: no-repeat;
-    background-size: 1.5rem;
-    background-position: calc(100% - 0.5rem) center;
-    padding-right: 2.5rem;
+.searchbar-container > img {
+    width: 1.5rem;
+    aspect-ratio: 1;
+
+    position: absolute;
+    right: 0.5rem;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    cursor: pointer;
 }
