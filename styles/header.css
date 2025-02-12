@@ -11,7 +11,7 @@ header {
     border: none;
 }
 
-.searchbar-container > img {
+.searchbar-container > button {
     width: 1.5rem;
     aspect-ratio: 1;
 
