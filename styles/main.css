@@ -5,6 +5,10 @@ main > .products-section > div {
     height: 22rem;
 }
 
+main > .products-section .special-offer {
+    cursor: pointer;
+}
+
 main .products {
     max-width: 100%;
     overflow: hidden;
@@ -24,6 +28,7 @@ main .products-list {
 
 main .products-list > div {
     width: 12rem;
+    cursor: pointer;
 }
 
 main .products-list > div p 
