@@ -47,7 +47,7 @@
                         type="text"
                         class="searchbar w-100 h-100 p-3 pe-5 rounded-1 focus-ring focus-ring-dark"
                         placeholder="Search for products, brands and more"
-                        aria-label="Search for products, brands and more"
+                        aria-label="Searchbar"
                     >
                     <button class="bg-transparent p-0 border-0">
                         <img
@@ -66,8 +66,9 @@
                     href="#"
                     class="d-none d-sm-flex gap-2 justify-content-center align-items-center text-white fw-bold link-light px-3 py-1 text-decoration-none"
                     role="button"
+                    aria-labelledby="more-link-label"
                 >
-                    <span>More</span>
+                    <span id="more-link-label">More</span>
                     <img src="/assets/icons/down_arrow.svg" alt="Down arrow">
                 </a>
 
@@ -75,9 +76,10 @@
                     href="#"
                     class="d-none d-md-flex gap-2 justify-content-center align-items-center text-white fw-bold link-light px-3 py-1 text-decoration-none"
                     role="button"
+                    aria-labelledby="cart-link-label"
                 >
                     <img src="/assets/icons/cart.svg" alt="Shopping cart">
-                    <span>Cart</span>
+                    <span id="cart-link-label">Cart</span>
                 </a>
             </div>
         </header>
