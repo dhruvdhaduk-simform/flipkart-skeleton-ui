@@ -72,3 +72,14 @@ main .scroll-right-btn {
 .category-label-and-arrow > img {
     width: 1rem;
 }
+
+.special-offer {
+    height: 100%;
+    aspect-ratio: 10 / 16;
+}
+
+.special-offer > img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
