@@ -46,6 +46,10 @@ main .products-list .product-img-holder {
     height: 10rem;
 }
 
+main .scroll-right-btn {
+    box-shadow: #00000050 0 0 1rem 0.1rem;
+}
+
 .categories-section a {
     min-width: 6rem;
 }
