@@ -48,3 +48,7 @@ main .products-list .product-img-holder {
 .categories-section > div::-webkit-scrollbar {
     display: none;
 }
+
+.category-label-and-arrow > img {
+    width: 1rem;
+}
