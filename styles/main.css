@@ -37,12 +37,19 @@ main .products-list .product-img-holder {
     height: 10rem;
 }
 
+.categories-section a {
+    min-width: 6rem;
+}
+
 .categories-section img {
     width: 4rem;
 }
 
 .categories-section span {
     font-size: 0.9rem;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
 }
 
 .categories-section > div::-webkit-scrollbar {
