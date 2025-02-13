@@ -30,6 +30,11 @@ main .products-list > a {
 main .products-list > a p 
 {
     font-size: 0.9rem;
+    width: 100%;
+    text-align: center;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
 }
 
 main .products-list > a p:nth-of-type(3) {
