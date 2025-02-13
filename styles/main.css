@@ -32,6 +32,10 @@ main .products-list > a p
     font-size: 0.9rem;
 }
 
+main .products-list > a p:nth-of-type(3) {
+    color: #9c9c9c;
+}
+
 main .products-list .product-img-holder {
     width: 10rem;
     height: 10rem;
