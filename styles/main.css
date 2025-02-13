@@ -14,6 +14,10 @@ main .products-header {
     height: 4rem;
 }
 
+main .products-header span {
+    white-space: nowrap;
+}
+
 main .products-header img {
     width: 1.5rem;
 }
