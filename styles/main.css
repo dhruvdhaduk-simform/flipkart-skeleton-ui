@@ -24,6 +24,11 @@ main .products-header img {
 
 main .products-list {
     max-width: 100%;
+    overflow-x: auto;
+}
+
+main .products-list::-webkit-scrollbar {
+    display: none;
 }
 
 main .products-list > a {
