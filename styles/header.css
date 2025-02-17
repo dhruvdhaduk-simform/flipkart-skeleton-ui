@@ -1,3 +1,9 @@
+:root {
+    --bg-color: #f1f2f3;
+
+    background-color: var(--bg-color);
+}
+
 header {
     height: 4rem;
 }

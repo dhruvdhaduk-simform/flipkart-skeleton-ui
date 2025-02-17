@@ -1,0 +1,99 @@
+main > .products-section {
+    background-color: var(--bg-color);
+}
+main > .products-section > div {
+    height: 22rem;
+}
+
+main .products {
+    max-width: 100%;
+    overflow: hidden;
+}
+
+main .products-header {
+    height: 4rem;
+}
+
+main .products-header span {
+    white-space: nowrap;
+}
+
+main .products-header img {
+    width: 1.5rem;
+}
+
+main .products-list {
+    max-width: 100%;
+    overflow-x: auto;
+    scrollbar-width: none;
+}
+
+main .products-list::-webkit-scrollbar {
+    display: none;
+}
+
+main .products-list > a {
+    width: 12rem;
+    text-decoration: none;
+}
+
+main .products-list > a p 
+{
+    font-size: 0.9rem;
+    width: 100%;
+    text-align: center;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+main .products-list > a p:nth-of-type(3) {
+    color: #9c9c9c;
+}
+
+main .products-list .product-img-holder {
+    width: 10rem;
+    height: 10rem;
+}
+
+main .scroll-right-btn {
+    box-shadow: #00000050 0 0 1rem 0.1rem;
+}
+
+.categories-section a {
+    min-width: 6rem;
+}
+
+.categories-section img {
+    width: 4rem;
+}
+
+.categories-section span {
+    font-size: 0.9rem;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.categories-section > div {
+    scrollbar-width: none;
+}
+
+.categories-section > div::-webkit-scrollbar {
+    display: none;
+}
+
+.category-label-and-arrow > img {
+    width: 1rem;
+}
+
+.special-offer {
+    height: 100%;
+    aspect-ratio: 10 / 16;
+}
+
+.special-offer > img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
