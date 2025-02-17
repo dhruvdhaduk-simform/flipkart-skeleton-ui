@@ -25,6 +25,7 @@ main .products-header img {
 main .products-list {
     max-width: 100%;
     overflow-x: auto;
+    scrollbar-width: none;
 }
 
 main .products-list::-webkit-scrollbar {
@@ -72,6 +73,10 @@ main .scroll-right-btn {
     white-space: nowrap;
     overflow: hidden;
     text-overflow: ellipsis;
+}
+
+.categories-section > div {
+    scrollbar-width: none;
 }
 
 .categories-section > div::-webkit-scrollbar {
